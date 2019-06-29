@@ -55,7 +55,7 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.each do |item|
-    if item.nil?
+    if !item
       false
     end
   end
