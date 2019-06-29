@@ -1,7 +1,11 @@
 # My Code here....
 def map_to_negativize(source_array)
+  new_source_array = []
   source_array.each do |num|
-    
+    new_source_array.push(num * -1)
+  end
+  
+  new_source_array
 end
 
 def map_to_no_change(source_array)
